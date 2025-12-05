@@ -1,0 +1,9 @@
+div{
+    height: 200px;
+    width: 400px;
+     background-image: url(Hey!.jpg);
+     background-size: cover;
+     border-radius: 50px;
+     position: absolute;
+     right: 0px;
+}
