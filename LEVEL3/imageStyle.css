@@ -1,0 +1,15 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: inline-block;
+}
+body{
+        background-image: url(pic.jpg);
+    background-size: cover;
+}
+#box1{
+    background-image: url(pic.jpg);
+    background-size: cover;
+}
