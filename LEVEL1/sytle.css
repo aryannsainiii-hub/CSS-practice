@@ -1,0 +1,57 @@
+        /* h1{
+            color: aqua;
+        }
+        p{
+            color: darkgreen;
+        }
+        button{
+            color: rgb(215, 124, 12);
+            background-color: antiquewhite ;
+        }
+        body{
+            background-color: black;
+        } */
+
+
+        /* *{
+            color: pink;
+        } */
+
+
+         h1{
+            color: aqua;
+         }
+
+         button{
+            color: wheat;
+         }
+
+         #heading{
+            color: aqua;
+            text-align: center;
+         }
+         .myclass{
+            color: blue;
+         }
+         #textalign{
+            text-align: right;
+            text-decoration: pink underline;
+            font-weight: 700;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            line-height: 50px;
+            text-transform: capitalize;
+
+         }
+         a{
+            text-decoration: none;
+         }
+
+         #one{
+            font-size: 25px;
+         }
+         #two{
+            font-size: 15px;
+         }
+         #three{
+            font-size: 10px;
+         }
