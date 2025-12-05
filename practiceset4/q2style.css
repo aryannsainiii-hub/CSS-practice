@@ -1,0 +1,23 @@
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-width: 3px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+#two{
+     height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-width: 2px;
+    border-style: solid;
+     border-color: black;
+    border-radius: 15px;
+    margin: 25px;
+    inline-size: auto;
+}
+
