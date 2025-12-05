@@ -1,0 +1,34 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border-width: 3px;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: black;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+#box1{
+    position: static;
+}
+
+#box2{
+    position: relative;
+    top: 10px;
+}
+
+#box3{
+    position: static;
+    top: 500px;
+
+}
+
+#box4{
+    position: fixed;
+    top: 0px;
+
+}
+
