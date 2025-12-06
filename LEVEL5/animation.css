@@ -22,10 +22,6 @@ div{
     to{left : 200px}
 }
 
-div:hover{
-
-}
-
 div:active{
     background-color: aqua;
 }
