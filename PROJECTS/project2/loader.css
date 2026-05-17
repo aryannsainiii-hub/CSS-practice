@@ -5,12 +5,35 @@
     border: 20px solid red;
     border-top: 20px solid black;
     border-radius: 50%;
-    animation: animation 1s ease-in 0s infinite normal;
-
-    
+    animation : animation 1s ease-in 0s infinite normal;    
 }
+.web{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border: 20px solid green;
+    border-top: 20px solid black;
+    border-radius: 50%;
+    position: sticky;
+    align-self: center;
+    animation : animation 1s ease-in 0s infinite normal; 
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+.box:hover{
+    transform: rotate3d(180deg);
+
+}
+
 
 @keyframes animation{
     from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+@keyframes web{
+        from{transform: rotate(0deg);}
     to{transform: rotate(360deg);}
 }

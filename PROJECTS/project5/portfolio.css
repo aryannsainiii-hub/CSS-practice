@@ -270,7 +270,8 @@ section{
 }
 .projects-box{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(350,1fr));
+    grid-template: minmax();
+    grid-template-rows: repeat(auto-fit,minmax(350,1fr));
     place-items:center ;
     gap: 3rem;
     row-gap: 5rem;

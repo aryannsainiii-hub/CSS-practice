@@ -1,21 +1,3 @@
-        /* h1{
-            color: aqua;
-        }
-        p{
-            color: darkgreen;
-        }
-        button{
-            color: rgb(215, 124, 12);
-            background-color: antiquewhite ;
-        }
-        body{
-            background-color: black;
-        } */
-
-
-        /* *{
-            color: pink;
-        } */
 
 
          h1{
@@ -55,3 +37,18 @@
          #three{
             font-size: 10px;
          }
+         .class{
+            height: 200px;
+            width: 200px;
+            background-color: black;
+         }
+         .class:hover{
+            transform: rotate(360deg);
+            transition: 2s;
+            transform: translateX(1000px);    
+         }
+
+
+
+
+
